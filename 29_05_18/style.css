@@ -1,0 +1,12 @@
+*{margin:0px;padding:0px;}
+body{background:red;}
+header{background:white;}
+header h1{text-align:center;}
+
+
+.navbar{margin-top:0px; margin-bottom:0px; border-radius:0px; }
+body{}
+body h4{color:orange;padding:1%;}
+body h2{font-family:Serif;}
+	a{color:red;}
+	button{background:red;color:red;}

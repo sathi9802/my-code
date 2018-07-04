@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<style>
+  body{width:80%;margin:0px auto;}
+  .slider{overflow:hidden;}
+  .slider figure img{width:15%;heigh:240px;float:left;}
+  .slider figure{
+			width:500%;
+			margin:5px 5px;
+			position:relative;left:0;
+			animation:10s slider_animation infinite; 
+		 }
+		 
+		 @keyframes slider_animation{
+		   0%{left:0;}
+		   20%{left:0%;}
+		   40%{left:-100%;}
+		   45%{left:-100%;}
+		   60%{left:-200%;}
+		   75%{left:-200%;}
+		   85%{left:-300%;}
+		   90%{left:-300%;}
+		   95%{left:-400%;}
+		   98%{left:-400%;}
+		   100%{left:0%;}
+		  }
+
+
+</style>
+<body>
+	<div class="slider">
+		<figure>
+			<img src="a.jpg" alt="">
+			<img src="b.jpg" alt="">
+			<img src="c.jpg" alt="">
+			<img src="c(2).jpg" alt="">
+			<img src="d.jpg" alt="">
+			<img src="e.jpg" alt="">
+		
+		</figure>
+	
+	
+	</div>
+</body>
+</html>

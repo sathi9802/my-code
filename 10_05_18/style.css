@@ -1,0 +1,28 @@
+*{margin:0px auto; padding:0px;}
+	 .clear{clear:both;}
+	 .wrapper{width:80%;margin:0px auto;}
+	 .header{width:80%;
+	       height:100px;
+		   background-color:#024;
+	       color:white;
+		  line-height:100px;
+		  text-align:center;
+		 }
+     .menu{width:80%;
+	      height:30px;
+		  background:gray;
+		  color:white;
+		  line-height:30px;
+		  text-align:center;
+		}
+	.content{width:80%;}
+	.leftbox{width:70%;
+	         height:450px;
+			 background-color:teal;
+			 float:left;
+			 }
+	.rightbox{width:30%;
+	         height:450px;
+			 background-color:#049;;
+			 float:left; 
+			 }

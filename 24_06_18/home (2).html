@@ -1,0 +1,30 @@
+<style>
+  .red{background:red;color:white;transition-duration:4s;padding:2%;}
+  .orange{background:orange;color:white;transition-duration:4s;padding:2%;}
+
+
+</style>
+<div onClick="Firstfunction()" id="para" style="width:200px;height:40px;line-height:40px;text-align:center;border:2px;">
+<h1>
+   CLick here
+ </h1>
+ 
+ <p id="para">
+   dummy text something like this.dummy text something like this.dummy text something like this.dummy text something like this.dummy text something like this.
+ 
+ </p>
+ 
+ 
+ 
+</div>
+
+
+<script type="text/javascript">
+  function Firstfunction(){
+  var paragaraph = document.getElementById('para');
+  paragaraph.classList.add('red');
+  paragaraph.classList.add('orange');
+}
+
+
+</script>

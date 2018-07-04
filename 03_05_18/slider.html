@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+	 <title>Image Slider |library</title>
+	 <style>
+	     body{width:80%;margin:0px auto;}
+		 
+		 .slider{overflow:hidden; }
+		 .slider figure img{ 
+		    width:20%;height:380px;float:left;
+		 
+		 }
+		 .slider figure{
+			width:500%;
+			margin:0;
+			position:relative;left:0;
+			animation:20s slider_animation infinite; 
+		 }
+		 
+		 @keyframes slider_animation{
+		   0%{left:0;}
+		   20%{left:0%;}
+		   40%{left:-100%;}
+		   45%{left:-100%;}
+		   60%{left:-200%;}
+		   75%{left:-200%;}
+		   85%{left:-300%;}
+		   90%{left:-300%;}
+		   95%{left:-400%;}
+		   98%{left:-400%;}
+		   100%{left:0%;}
+		  }
+	 </style>
+</head>
+<body>
+	<h1>Image Slider</h1><hr/>
+	<div class="slider">
+	<figure>
+		<img src="a.jpg" alt=""></img>
+		<img src="b.jpg" alt=""></img>
+		<img src="c.jpg" alt=""></img>
+		<img src="d.jpg" alt=""></img>
+		<img src="e.jpg" alt=""></img>
+	</figure>
+	</div>
+</body>
+</html>
